@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="Chuck439"
+           fetch="https://github.com/Chuck439" />
+
+  <remote  name="tree"
+           fetch="https://github.com/PixelPlusUI-Devices" />
+  
+  <remote  name="leneg"
+           fetch="https://github.com/LineageOS" />
+
+ <!-- Replacements -->
+  <remove-project name="android_hardware_qcom_display"/>
+  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="Chuck439" revision="lineage-18.1-caf-msm8996"/>
+
+  <remove-project name="android_hardware_qcom_media"/>
+  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="leneg" revision="lineage-18.1-caf-msm8996"/>
+
+  <remove-project name="android_hardware_qcom_audio"/>
+  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="leneg" revision="lineage-18.1-caf-msm8996"/>
+
+ <!-- Kernels -->
+  <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_olivewood" remote="tree" revision="eleven"  clone-depth="1"/>
+
+ <!-- Device Trees -->
+  <project path="device/xiaomi/olivewood" name="a7imranjha/device_xiaomi_olivewood" remote="github" revision="3.9_r1"/>
+
+ <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/olivewood"  name="vendor_xiaomi_olivewood" remote="tree" revision="eleven"/>
+
+
+</manifest>
