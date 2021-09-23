@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="Chuck439"
-           fetch="https://github.com/Chuck439" />
-  
-  <remote  name="leneg"
-           fetch="https://github.com/LineageOS" />
-
- <!-- Replacements -->
-  <remove-project name="android_hardware_qcom_display"/>
-  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="Chuck439" revision="lineage-18.1-caf-msm8996"/>
-
-  <remove-project name="android_hardware_qcom_media"/>
-  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="leneg" revision="lineage-18.1-caf-msm8996"/>
-
-  <remove-project name="android_hardware_qcom_audio"/>
-  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="leneg" revision="lineage-18.1-caf-msm8996"/>
 
  <!-- Kernels -->
   <project path="kernel/xiaomi/sdm439" name="a7imranjha/android_kernel_xiaomi_olivewood" remote="github" revision="eleven"  clone-depth="1"/>
