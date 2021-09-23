@@ -23,7 +23,7 @@
   <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_olivewood" remote="tree" revision="eleven"  clone-depth="1"/>
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/olivewood" name="a7imranjha/device_xiaomi_olivewood" remote="github" revision="main"/>
+  <project path="device/xiaomi/olivewood" name="Ravithakral/device_xiaomi_olivewood" remote="github" revision="main"/>
 
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/olivewood"  name="android_vendor_xiaomi_olivewood" remote="tree" revision="eleven"/>
