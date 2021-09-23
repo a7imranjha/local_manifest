@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+        <remote  name="pe"
+                fetch="https://github.com/a7imranjha" />
+
+
  <!-- Kernels -->
-  <project path="kernel/xiaomi/sdm439" name="a7imranjha/android_kernel_xiaomi_olivewood" remote="github" revision="eleven"  clone-depth="1"/>
+  <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_olivewood" remote="pe" revision="eleven"  clone-depth="1"/>
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/olivewood" name="a7imranjha/device_xiaomi_privet" remote="github" revision="main"/>
+  <project path="device/xiaomi/olivewood" name="device_xiaomi_privet" remote="pe" revision="main"/>
 
  <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/olivewood"  name="a7imranjha/android_vendor_xiaomi_olivewood" remote="github" revision="eleven"/>
+  <project path="vendor/xiaomi/olivewood"  name="android_vendor_xiaomi_olivewood" remote="pe" revision="eleven"/>
 
 
 </manifest>
