@@ -2,9 +2,6 @@
 <manifest>
   <remote  name="Chuck439"
            fetch="https://github.com/Chuck439" />
-
-  <remote  name="tree"
-           fetch="https://github.com/PixelPlusUI-Devices" />
   
   <remote  name="leneg"
            fetch="https://github.com/LineageOS" />
@@ -20,13 +17,13 @@
   <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="leneg" revision="lineage-18.1-caf-msm8996"/>
 
  <!-- Kernels -->
-  <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_olivewood" remote="tree" revision="eleven"  clone-depth="1"/>
+  <project path="kernel/xiaomi/sdm439" name="a7imranjha/android_kernel_xiaomi_olivewood" remote="github" revision="eleven"  clone-depth="1"/>
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/olivewood" name="a7imranjha/device_xiaomi_olivewood" remote="github" revision="main"/>
+  <project path="device/xiaomi/olivewood" name="a7imranjha/device_xiaomi_privet" remote="github" revision="main"/>
 
  <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/olivewood"  name="android_vendor_xiaomi_olivewood" remote="tree" revision="eleven"/>
+  <project path="vendor/xiaomi/olivewood"  name="a7imranjha/android_vendor_xiaomi_olivewood" remote="github" revision="eleven"/>
 
 
 </manifest>
