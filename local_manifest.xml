@@ -12,6 +12,8 @@
 
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/olivewood"  name="android_vendor_xiaomi_olivelite" remote="pe" revision="eleven"/>
-
-
+        
+ <!-- MIUI Camera -->
+  <project path="vendor/miuicamera" name="vendor_MiuiCamera" remote="pe" revision="main"/>
+        
 </manifest>
