@@ -8,7 +8,7 @@
   <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_olivewood" remote="pe" revision="main"  clone-depth="1"/>
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/olivewood" name="device_xiaomi_olivewood" remote="pe" revision="hycon"/>
+  <project path="device/xiaomi/olivewood" name="device_xiaomi_olivewood_" remote="pe" revision="main"/>
 
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/olivewood"  name="vendor_xiaomi_olivewood" remote="pe" revision="main"/>
